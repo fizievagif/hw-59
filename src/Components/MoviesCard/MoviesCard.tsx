@@ -21,7 +21,7 @@ class MoviesCard extends Component<Props, State> {
   };
 
   shouldComponentUpdate(nextProps: Readonly<Props>, nextState: Readonly<State>): boolean {
-    return nextProps.film.text !== nextState.movie.text;
+    return !(nextProps.film.text === nextState.movie.text);
   }
 
   render() {

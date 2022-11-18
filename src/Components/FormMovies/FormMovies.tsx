@@ -18,7 +18,7 @@ class FormMovies extends Component<Props> {
   };
 
   inputValueChange(e: React.ChangeEvent<HTMLInputElement>) {
-    this.setState(prev => ({...prev, id: Math.random().toString() ,text: e.target.value}));
+    this.setState(prev => ({...prev ,text: e.target.value}));
   }
 
   render() {
