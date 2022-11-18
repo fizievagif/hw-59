@@ -1,0 +1,17 @@
+.btn-joke {
+    background: #13f313;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    bottom: -15px;
+    left: 37%;
+}
+
+.btn-joke:hover {
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
