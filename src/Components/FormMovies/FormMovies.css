@@ -1,0 +1,28 @@
+input {
+    padding: 10px 0 10px 5px;
+    font-size: 15px;
+    outline: none;
+    width: 400px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #13d313;
+}
+
+.movie-btn {
+    padding: 11px 5px 10px;
+    background: #13d313;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.movie-btn:hover {
+    background: green;
+}
+
+.movie-btn:active {
+    background: #6ea21f;
+}

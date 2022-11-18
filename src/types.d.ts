@@ -1,3 +1,8 @@
+export interface MoviesType {
+  id: string;
+  text: string;
+}
+
 export interface JokesType {
   categories: any[];
   created_at: string;

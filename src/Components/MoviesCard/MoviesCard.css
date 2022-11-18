@@ -1,0 +1,21 @@
+.movies-card {
+    margin-top: 10px;
+}
+
+.movie-card-btn {
+    background: none;
+    outline: none;
+    border: 1px solid #13d313;
+    padding: 12px 10px 10px;
+    border-radius: 0 10px 10px 0;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.movie-card-btn:hover {
+    background: rgba(19, 211, 19, 0.15);
+}
+
+.movie-card-btn:active {
+    background: yellow;
+}
